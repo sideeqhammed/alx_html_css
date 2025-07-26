@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  background-color: rgb(239, 248, 248);
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; or any fixed height
+}
+
+.top {
+  flex: 3;
+  background-color: lightblue;
+}
+
+.bottom {
+  flex: 2;
+  background-color: lightcoral;
+} */
