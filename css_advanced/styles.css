@@ -1,0 +1,290 @@
+html {
+  background-color: gray;
+  /* font-family: ; */
+  padding: 0;
+  margin: 0;
+}
+
+/* @font-face {
+  font-family: source-sans-pro;
+  src: url(./images/source-sans-pro/SourceSansPro-Regular.otf);
+} */
+
+body {
+
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("./images/Object.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  /* border: solid; */
+  color: white;
+}
+
+header {
+  margin: 0 10%;
+  /* border: solid white; */
+  height: 50px;
+}
+
+header > nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 30px;
+}
+
+.nav-btn {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: x-small;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.label span {
+  padding: 20px;
+  color: white;
+  font-size: x-small;
+}
+
+button {
+  display: block;
+  margin: auto;
+  color: white;
+  border: none;
+  background-color: #C271FF;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: x-small;
+  /* transition: 1s; */
+}
+
+.learn {
+  display: block;
+  text-align: center;
+  margin: 50px auto 10px;
+}
+
+.tutors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tutor {
+  width: 150px;
+  height: 273px;
+  padding: 50px;
+  color: white;
+}
+
+.tutor-image {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.tutor h3 {
+  font-size: 14px;
+}
+
+.tutor p {
+  font-size: 11px;
+}
+
+.detail {
+  background-color: #C271FF;
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 20px 20%;
+  font-size: small;
+  margin-bottom: -20px;
+  height: 250px;
+  align-items: center;
+}
+.detail div h3, .detail div p {
+  padding: 0 40px;
+}
+
+.courses {
+  background-color: white;
+  color: black;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.tutorials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tutorials > div {
+  width: 255px;
+  height: 335px;
+  padding: 0px 20px;
+}
+
+.tutorials div h3 {
+  font-size: 12px;
+}
+
+.courses > h2 {
+  padding: 50px 10px;
+  text-align: center;
+  /* border: solid green; */
+}
+
+.tutorial-p, .tutorial-div1, .tutorial-div2 {
+  font-size: 11px;
+}
+
+.tutorial-div1 {
+  display: flex;
+  align-items: center;
+  color: #C271FF;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  padding-right: 20px;
+}
+
+.tuturial-div2{
+  display: flex;
+  color: #C271FF;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating > div, .rating > p {
+  display: inline;
+  padding: 5px 0;
+  margin: 0px;
+  text-align: center;
+  align-items: center;
+}
+
+.rating .r5 {
+  color: lightgray;
+}
+
+.p-time {
+  margin: 0;
+}
+
+.section2{
+  background-color: #071629;
+  padding: 20px 10px;
+}
+
+.section2-div{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section2 h2 {
+  text-align: center;
+  padding: 30px 0;
+}
+.section2-div > div {
+  width: 257px;
+  /* min-width: 150px; */
+  height: 153px;
+  font-size: small;
+  padding: 10px 20px;
+  margin: 0 10px
+}
+
+.section2 > button {
+  margin: 30px auto;
+}
+
+.section3 {
+  background-color: white;
+  color: black;
+  padding: 20px 10%;
+}
+
+.section3-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+}
+
+.section3 h2 {
+  align-items: center;
+  text-align: center;
+}
+
+.section3-div > div {
+  padding: 20px 18%;
+  font-size: x-small;
+}
+
+footer {
+  background-color: #071629;
+  margin: 0;
+  /* height: 249px; */
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 15% 60px;
+}
+
+.footer-p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: xx-small;
+  color: gray
+}
+
+.span {
+  color:#C271FF;
+}
+
+.fa-brands {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
