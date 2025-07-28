@@ -1,14 +1,18 @@
+@font-face {
+  font-family: 'Spin Cycle OT';
+  src: url('./fonts/Spin-Cycle-OT/spincycle_ot.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background-color: gray;
-  /* font-family: ; */
+  font-family: 'Source Sans Pro', 'Spin Cycle OT';
   padding: 0;
   margin: 0;
 }
 
-/* @font-face {
-  font-family: source-sans-pro;
-  src: url(./images/source-sans-pro/SourceSansPro-Regular.otf);
-} */
+
 
 body {
 
