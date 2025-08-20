@@ -109,13 +109,13 @@ nav {
   padding: 0 0 0 15%;
 }
 
-ul {
+.nav-links {
   display: flex;
   font-size: small;
   padding: 0 15% 0 0;
 }
 
-li {
+.nav-item {
   list-style-type: none;
   padding: 0 10px;
   
@@ -125,14 +125,14 @@ li {
   .logo {
     padding: 0;
   }
-  ul {
+  .nav-links {
     padding: 0px;
     flex-direction: column;
   }
-  ul.unactive {
+  .nav-links.unactive {
     display: none;
   }
-  li {
+  .nav-item {
     padding: 10px;
   }
   .hamburger.active {
@@ -218,6 +218,10 @@ button:hover {
   font-size: small;
 }
 
+.sample:hover {
+  transform: scale(1.1);
+}
+
 #section2 {
   background-image: url(./images/headphones_hero_2.jpg);
   background-repeat: no-repeat;
@@ -241,6 +245,10 @@ button:hover {
 
 .section2-div2 > img {
   padding: 30px;
+}
+
+.section2-div2 > img:hover {
+  transform: scale(1.1);
 }
 
 #section3 {
@@ -295,7 +303,7 @@ footer {
   height: 35px;
 }
 
-.section4 > div >img {
+.social-link>img {
   padding: 20px 10px;
 }
 
